@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2024"
 description = "A simple WebSocket ping utility"
 license = "MIT"
-repository = "https://github.com/your-username/ws-ping"
+repository = "https://github.com/maggnus/websocket-ping"
+authors = ["Korenev Maksim"]
 
 [dependencies]
 clap = { version = "4.5.40", features = ["derive"] }
