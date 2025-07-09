@@ -1,0 +1,17 @@
+[package]
+name = "ws-ping"
+version = "0.1.0"
+edition = "2024"
+description = "A simple WebSocket ping utility"
+license = "MIT"
+repository = "https://github.com/your-username/ws-ping"
+
+[dependencies]
+clap = { version = "4.5.40", features = ["derive"] }
+tokio = { version = "1.46.1", features = ["macros", "rt-multi-thread", "time"] }
+tokio-tungstenite = { version = "0.27.0", features = ["rustls-tls-webpki-roots"] }
+tungstenite = "0.27.0"
+futures-util = "0.3.31"
+url = "2.5.0"
+ring = "0.17.14"
+rustls = { version = "0.23.28", features = ["ring"] }
